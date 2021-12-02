@@ -30,6 +30,7 @@ h1 {
   bottom: 50%;
   right: 50%;
   background-color: steelblue;
+ 
 }
 .box-2 {
   bottom: 50%;
@@ -46,20 +47,20 @@ h1 {
   left: 50%;
   background-color: rosybrown;
 }
-
-.box:hover {
-  transition: all 0, 8s;
+.box {
+  transition: all 1.5s;
 }
 
-.box-1:hover {
+.container:hover .box-1{
   transform: translateX(-100%) rotate(90deg);
 }
-.box-2:hover {
-  transform: translateX(100%) rotate(90deg);
+.container:hover .box-2{
+  transform: translateX(100%) rotate(-90deg);
 }
-.box-3:hover {
-  transform: translateX(-100%) rotate(90deg);
+.container:hover .box-3{
+  transform: translateX(-100%) rotate(-90deg);
 }
-.box-4:hover {
-  transform: translateX(100%) rotate(90deg);
+.container:hover .box-4{
+  transform: translateX(100%) rotate(-90deg);
 }
+
