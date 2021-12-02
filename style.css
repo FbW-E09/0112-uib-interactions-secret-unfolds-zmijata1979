@@ -55,7 +55,7 @@ h1 {
   transform: translateX(-100%) rotate(90deg);
 }
 .container:hover .box-2{
-  transform: translateX(100%) rotate(-90deg);
+  transform: translateX(100%) rotate(90deg);
 }
 .container:hover .box-3{
   transform: translateX(-100%) rotate(-90deg);
